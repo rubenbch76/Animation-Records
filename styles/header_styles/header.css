@@ -1,0 +1,11 @@
+alignIcons {
+    width: 105.76px;
+    height: 24.6px;
+    background-color: #C7F8EC;
+    margin-top: 100px;
+    margin-left: 5px;
+    display: flex;
+    align-self: flex-end;
+    flex-direction: row;  
+}
+

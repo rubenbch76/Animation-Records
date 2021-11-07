@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Records</title>
+    <link rel="stylesheet" href="./styles/index.css">
+    
+</head>
+<body>
+    <header class="sizeSection">
+
+        <div class="logoSection">
+            <img src="./images/logo_animation.png" alt="Animation Records"class="sizeLogo" >
+        </div>
+
+        <div class="tituloylogo">
+            <div class="textHeader" >
+                <h1>Todo en contenidos de animación</h1>
+            </div>  
+            <nav class="aligElem">
+                <div class="center">
+                    <a href="./index.html">
+                    <img  class="icons" src="./images/home.png" alt="Home"></a>
+                    Home               
+                </div>       
+                <div class="center">   
+                    <input type="checkbox" id="botonMenu">
+                    <label for="botonMenu"><img src="./images/categories.png" class="icons" alt="categorias"></label>
+                    Categorias
+                    <nav class="menu">
+                        <tr><a href="#"><span>Estrenos</span> </a></tr>
+                        <tr><a href="#"><span>Clásicos</span></a></tr>
+                        <tr><a href="#"><span>Series</span></a></tr>
+                        <tr><a href="#"><span>Audios</span></a></tr>
+                        <tr><a href="#"><span>Infantil</span></a></tr>
+                        <tr><a href="./tienda.html"><span>Tienda</span></a></tr>
+                    </nav>
+                </div>
+                <div class="center">  
+                    <img class="icons" src="./images/carrito.png" alt="Carrito">
+                    Carrito
+                </div> 
+            </nav>
+        </div> 
+
+   </header> 
+
+   <main>
+     
+        <section class="sizeSection" >
+            <img src="./images/banner_web2.png" alt="Banner Home" class="sizeBanner">
+        </section>  
+
+        <section id="sectionCategories">
+            <div id="categoriesTitle"><h1 class="title">Elige tu categoría preferida</h1></div>
+            <div class="alignCategories">
+                <div class="alignIcons">
+                    <img class= "fotos_size" src="./images/estrenos.PNG" alt="Estrenos">
+                    <p>Estrenos</p>
+                </div>
+                <div class="alignIcons">
+                    <img class= "fotos_size" src="./images/classic.jpg" alt="Clásicos">
+                    <p>Animaciones clásicas</p>
+                </div>
+                <div class="alignIcons">
+                    <img class= "fotos_size" src="./images/Los-simpsons.jpg" alt="Series">
+                    <p>Series de animación</p>
+                </div>
+
+                <div class="alignIcons">
+                    <img class= "fotos_size" src="./images/audio.PNG" alt="Audio">
+                    <p>Producciones de audio</p>
+                </div>
+                <div class="alignIcons">
+                    <img class= "fotos_size" src="./images/animacioninfanti.PNG" alt="Infantil">
+                    <p>Animación infantil</p>
+                </div>
+                <div class="alignIcons">
+                    <a href="./tienda.html">
+                    <img class= "fotos_size" src="./images/tienda.PNG" alt="Tienda"></a>
+                    <p>Tienda</p>
+                </div>
+            </div>
+        </section> 
+
+        <section class="newsletter">
+            <h1>Apúntate a nuestra newsletter para estar al día</h1>
+            <form action="">
+                <input type="email" placeholder="Email">
+                <input type="submit" onclick= "getData()" value="Enviar">
+            </form>
+            <script src="./app.js"></script>
+        </section>   
+
+   </main>
+
+    <footer class="sizeSection">
+       <p>© Animation Records S.L.</p>
+   </footer>
+
+</body>
+</html>

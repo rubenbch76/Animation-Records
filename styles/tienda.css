@@ -1,0 +1,50 @@
+.sizeSectionShop{
+    width: 100%;
+}
+
+.sizeIco {
+    width: 120px;
+    height: 120px;
+    margin-right: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+   
+}
+
+.aligElemt {   
+    width:  100%;
+    display: flex; 
+    justify-content: space-around;  
+}
+
+.texto {  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;  
+}
+
+p {
+    display: flex;
+    justify-content: center;
+}
+
+.enlace {   
+    width: 100%;
+    display:flex;
+    justify-content: end;
+    align-items: flex-end; 
+}
+
+.alignBack{
+    width: 100%;
+    min-width: 450px;
+    max-width: 800px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
+

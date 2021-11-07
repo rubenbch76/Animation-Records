@@ -1,0 +1,56 @@
+#product {
+    width: 70%;
+    min-width: 450px;
+    max-width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#articleImages {
+    width: 100%;
+    height: 350px;
+    background-color: #C7F8EC;
+    margin-top: 30px;
+    margin-right: 20px;
+    border-style: solid;  
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.foto_grande {
+    width: 200px;
+    max-width: 200px;
+    height: 200px;
+    max-height: 200px;
+    border-style: solid;  
+    border-width: 1px;
+}
+
+.fotos_mini {
+    width: 60px;
+    border-style: solid;  
+    border-width: 1px;
+    margin-right: 15px;
+}
+
+.alignBigPhoto {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.alignMiniPhotos {
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; 
+}
+
+
+

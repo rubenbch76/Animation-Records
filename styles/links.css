@@ -1,0 +1,10 @@
+@import "./categories_styles/categories.css";
+@import "./general_styles/general.css";
+@import "./newsletter/newsletter.css";
+@import "./options_styles/options.css";
+@import "./related_styles/related.css";
+/*@import "./menu_styles/menu.css";*/
+@import "./product_styles/product.css";
+@import "./header_styles/header.css";
+@import "./menu.css";
+@import "./tienda.css";

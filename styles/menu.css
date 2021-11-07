@@ -1,0 +1,22 @@
+
+.icons:hover {
+    cursor: pointer;
+    background: rgba(0,0,0,0.3);
+}
+
+.menu{
+    background-color:aquamarine;
+    display:none ;
+}
+
+#botonMenu:checked ~ .menu{
+    display: flex;
+    position: absolute;
+    /*left: 820px;*/
+    top: 111px;
+    flex-direction: column;
+}
+
+#botonMenu {
+   display: none;
+}
